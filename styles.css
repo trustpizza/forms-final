@@ -50,6 +50,11 @@ table {
 
 /* My Code */
 
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
 .container {
   display: grid;
   grid-template-columns: 1fr 4fr;
@@ -62,10 +67,29 @@ table {
   display: grid;
   grid-template-rows: 1fr 1fr 1fr 5fr;
   align-items: center;
+  gap: 50px;
+}
+
+.sidebar > * {
+  padding-left: 25px;
 }
 
 .sidebar > .title {
-  border: 1px solid black;
+  font-size: 35px;
+}
+
+.links-div, .help-div {
+  display: grid;
+  gap: 15px;
+  font-size: 22px;
+}
+
+.links-div {
+  grid-template-rows: repeat(6, 1fr);
+}
+
+.help-div {
+  grid-template-rows: repeat(3, 1fr);
 }
 
 .main {
