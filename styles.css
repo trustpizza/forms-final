@@ -42,17 +42,10 @@ q:before, q:after {
 	content: '';
 	content: none;
 }
+
 table {
 	border-collapse: collapse;
 	border-spacing: 0;
-}
-
-* {
-  border: 1px solid black;
-}
-
-body > * {
-  border: 1px solid black;
 }
 
 .container {
@@ -64,6 +57,13 @@ body > * {
 
 .sidebar {
   grid-row: 1 / 3;
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr 5fr;
+  align-items: center;
+}
+
+.sidebar > .title {
+  border: 1px solid black;
 }
 
 .main {
