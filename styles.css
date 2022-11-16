@@ -48,6 +48,8 @@ table {
 	border-spacing: 0;
 }
 
+/* My Code */
+
 .container {
   display: grid;
   grid-template-columns: 1fr 4fr;
@@ -67,5 +69,5 @@ table {
 }
 
 .main {
-  grid-column: 2 /   3;
+  grid-column: 2 / 3;
 }
