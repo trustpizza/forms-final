@@ -92,6 +92,28 @@ a {
   grid-template-rows: repeat(3, 1fr);
 }
 
+.header {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-template-rows: 1fr 2fr;
+}
+
+.searchbar {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.searchbar > * {
+  border: 1px solid black;
+}
+.search {
+  height: 20px;
+  min-width: 100px;
+  border-radius: 10px;
+  flex: 1;
+}
+
 .main {
   grid-column: 2 / 3;
 }
