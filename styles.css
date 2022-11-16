@@ -107,6 +107,7 @@ a {
   grid-template-rows: 1fr 1fr;
   gap: 5px;
   background-color: #f5f5f5;
+  box-shadow: rgba(0, 0, 0, .15) 2px 2px 2.5px;
 }
 
 .searchbar {
@@ -192,7 +193,6 @@ a {
   grid-template-rows: 1fr 20fr;
   padding-bottom: 10px;
   padding-left: 15px;
-
 }
 
 .projects {
@@ -206,7 +206,12 @@ a {
   min-height: 200px;
 }
 
+.announcements {
+  padding-left: 15px;
+}
+
 .trending {
   grid-column: 2 / 3;
+  padding-left: 15px;
 }
 
