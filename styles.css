@@ -96,6 +96,7 @@ a {
   display: grid;
   grid-template-columns: 2fr 1fr;
   grid-template-rows: 1fr 2fr;
+  gap: 5px
 }
 
 .searchbar {
@@ -108,10 +109,31 @@ a {
   border: 1px solid black;
 }
 .search {
-  height: 20px;
+  height: 25px;
   min-width: 100px;
   border-radius: 10px;
   flex: 1;
+}
+
+.account {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  align-items: center;
+  justify-content: end;
+  gap: 15px;
+}
+
+.bell {
+  align-self: center;
+  justify-self: end;
+}
+
+.account-name {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
 }
 
 .main {
