@@ -252,6 +252,7 @@ a {
   display: grid;
   grid-template-rows: 1fr 9fr 1fr 9fr;
   padding: 15px;
+  padding-top: 0px;
 }
 
 .right-title {
@@ -264,4 +265,28 @@ a {
 .announcements, .trending  {
   background-color: #fafafa;
   border-radius: 15px;
+  padding: 15px;
+  display: grid;
+}
+
+.announcements {
+  grid-template-rows: 1fr 1fr 1fr;
+}
+
+h4 {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+}
+
+.announcement {
+  border-bottom: 1px solid black;
+  padding-bottom: 10px;
+}
+
+.trending {
+  height: 50%;
 }
