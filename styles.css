@@ -74,6 +74,7 @@ a {
   align-items: center;
   gap: 50px;
   background-color: #0ea5e9;
+  padding-right: 25px;
 }
 
 .sidebar > * {
@@ -83,6 +84,22 @@ a {
 
 .sidebar > .title {
   font-size: 35px;
+  display: flex;
+  align-items: center;
+}
+
+.link, .help {
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+  align-items: center;
+}
+
+.sidebar-svg {
+  width: 2rem;
+}
+
+.dashboard-svg {
+  width: 3rem;
 }
 
 .links-div, .help-div {
