@@ -135,7 +135,12 @@ a {
   justify-content: end;
   gap: 15px;
   justify-self: end;
-  padding-left: 0;
+  padding-right: 15px;
+}
+
+.account-icon {
+  width: 3rem;
+  height: 3rem;
 }
 
 .bell {
@@ -155,7 +160,7 @@ a {
 
 .greeting {
   display: grid;
-  grid-template-columns: 1fr 5fr;
+  grid-template-columns: 1fr 9fr;
   justify-content: center;
   align-items: center;
 }
@@ -168,6 +173,7 @@ a {
   margin-right: 15px;
   justify-content: center;
   align-items: center;
+  justify-self: end;
 }
 
 .btn {
